@@ -56,7 +56,7 @@ router.post('/authenticate', (req, res, next) => {
 
                 res.json({
                     success: true,
-                    token: 'JWT' + token,
+                    token: 'JWT ' + token,
                     user: {
                         id: user._id,
                         name: user.name,
@@ -69,7 +69,6 @@ router.post('/authenticate', (req, res, next) => {
                     success: false,
                     msg: 'Wrong PASSWORD !'
                 });
-
             }
         });
     });
