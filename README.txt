@@ -5,7 +5,7 @@ run ->	npm install
 
 - Run Server
 run -> 	npm start 
-OR 
+	   OR 
 	nodemon
 
 	//
