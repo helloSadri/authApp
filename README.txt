@@ -11,8 +11,3 @@ run -> 	"npm start"
 	   OR 
 
 	"nodemon"
-
-	//
-
-GO to -> "client"
-run -> 	"ng server" 
