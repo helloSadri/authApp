@@ -1,14 +1,18 @@
 #MEANAuthApp 
 
 - Install Dependencies
-run ->	npm install
+
+Go to main folder & client folder
+run ->	"npm install"
 
 - Run Server
-run -> 	npm start 
+run -> 	"npm start" 
+
 	   OR 
-	nodemon
+
+	"nodemon"
 
 	//
 
-GO to -> angular-src
-run -> 	ng server 
+GO to -> "client"
+run -> 	"ng server" 
